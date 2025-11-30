@@ -1,44 +1,61 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
-
-:root {
-  --bg: #0f0f10;
-  --card: #111118;
-  --accent: #6a5acd;
-  --muted: #bdbddf;
-  --text: #f4f4f7;
-}
-
-* { box-sizing: border-box; }
-
 body {
-  margin: 0; font-family: 'Poppins', sans-serif;
-  background: var(--bg); color: var(--text); line-height: 1.5;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
 }
 
-.site-header {
-  display:flex; justify-content:space-between; align-items:center;
-  padding:18px 28px; background: #0c0c0d; border-bottom:1px solid rgba(255,255,255,0.03);
+header {
+    background: #1e1e1e;
+    color: #fff;
+    padding: 20px 0;
 }
 
-.brand h1 { margin:0; font-size:20px; }
-.tagline { margin:4px 0 0 0; color:var(--muted); font-size:13px; }
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
 
-.nav a { color: var(--muted); margin-left:14px; text-decoration:none; font-weight:500; }
+header nav ul {
+    list-style: none;
+    display: flex;
+}
 
-.container { padding:28px; max-width:980px; margin:0 auto; }
+header nav ul li {
+    margin-left: 20px;
+}
 
-.hero { display:flex; gap:20px; align-items:center; margin-bottom:20px; }
-.profile-img { width:110px; height:110px; border-radius:12px; background:#1e1e2f; padding:8px; }
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
 
-.about, .usage, .contact { background: var(--card); padding:16px; border-radius:12px; margin-top:18px; }
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: #f4f4f4;
+}
 
-textarea { width:100%; min-height:120px; padding:12px; border-radius:10px; border:none; background:#0f1724; color:var(--text); resize:vertical; }
+.hero .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 25px;
+    background: #1e1e1e;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
 
-button { background:var(--accent); color:white; padding:10px 16px; border-radius:10px; border:none; cursor:pointer; font-weight:600; }
+section {
+    padding: 50px 20px;
+}
 
-.ai-output { margin-top:12px; min-height:60px; padding:12px; border-radius:8px; background:#0b1220; color:var(--muted); text-align:left; white-space:pre-wrap; }
-
-input[type="text"], input[type="email"] { width:100%; padding:10px; margin-top:8px; border-radius:8px; border:none; background:#0f1724; color:var(--text); }
-form button { margin-top:10px; }
-
-.site-footer { text-align:center; padding:16px 0; color:var(--muted); margin-top:28px; }
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #1e1e1e;
+    color: #fff;
+}
