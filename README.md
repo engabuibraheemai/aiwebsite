@@ -1,22 +1,14 @@
-# Engineer_Abuibraheem — AI Personal Website (Replit-ready)
+# Best Workflow Website
 
-This project is a simple personal website with an AI-powered assistant and a secure contact form.
-Built for: Engineer_Abuibraheem
+This is a personal website for **Engineer Abubakar Ibrahim**. It includes:
 
-## Features
-- Home, Projects, and AI Tools pages
-- AI Text Assistant (calls OpenAI ChatCompletion)
-- Secure contact form that sends messages to your email via SMTP
+- Home page
+- About page
+- Portfolio
+- Contact page with social links and WhatsApp
 
-## Setup (Replit)
-1. Create a new Python Repl and upload this project folder.
-2. In Replit Secrets (the lock icon), set the following keys:
-   - OPENAI_API_KEY : your OpenAI API key
-   - EMAIL_USER : your SMTP email (e.g., your Gmail address)
-   - EMAIL_PASS : your SMTP app password (for Gmail use an app password)
-   - EMAIL_TO : your email address to receive contact form messages
-3. Click Run. The app will be available at `https://<your-repl>.repl.co`
+## How to Run
 
-## Notes
-- Do NOT commit your real API keys to public repos.
-- If you prefer Google Gemini instead of OpenAI, you can replace the `/generate` logic with Gemini API calls.
+1. Open `index.html` in your browser.
+2. Modify `css/style.css` for styling changes.
+3. Add projects in `portfolio.html` as needed.
